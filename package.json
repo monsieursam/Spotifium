@@ -1,0 +1,51 @@
+{
+  "name": "Spotify",
+  "version": "1.6.0",
+  "license": "MIT",
+  "description": "A browser to get the job done",
+  "author": "Sam <sam.mamane@hotmail.fr>",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "com.sammamane.spotify",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "Squirrel",
+      "icon": "build/icon.ico"
+    }
+  },
+  "dependencies": {
+    "ad-block": "3.1.11",
+    "electron-ad-blocker": "0.2.0",
+    "electron-widevinecdm": "^6.0.2",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-builder": "20.8.1"
+  }
+}

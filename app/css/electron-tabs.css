@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  background-color: #FFFFFF ;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+body {
+    background-color:#FFFFFF;
+    cursor: default;
+    font-family: 'Open sans';
+    display: flex;
+  min-height : 100%;
+  margin: 0;
+  padding: 0;
+}
