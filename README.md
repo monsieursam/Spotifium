@@ -1,1 +1,1 @@
-Spotifium
+Spotify client for Desktop
