@@ -17,7 +17,7 @@ app.on('ready', () => {
     // the saved values will now be assigned to the BrowserWindow again
     mainWindow = new BrowserWindow({
       titleBarStyle: "hidden",
-      width: 500,
+      width: 1000,
       height: 700,
     });
     const { blockWindowAds, adBlocker } = require('electron-ad-blocker');

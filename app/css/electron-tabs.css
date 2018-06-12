@@ -1,11 +1,11 @@
 html {
   height: 100%;
-  background-color: #FFFFFF ;
+  background-color: #121212 ;
   -webkit-user-select: none;
   -webkit-app-region: drag;
 }
 body {
-    background-color:#FFFFFF;
+    background-color:#121212;
     cursor: default;
     font-family: 'Open sans';
     display: flex;
