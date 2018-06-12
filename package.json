@@ -1,8 +1,8 @@
 {
-  "name": "Spotify",
-  "version": "1.6.0",
+  "name": "Spotifium",
+  "version": "1.0.0",
   "license": "MIT",
-  "description": "A browser to get the job done",
+  "description": "Spotify client for Desktop",
   "author": "Sam <sam.mamane@hotmail.fr>",
   "main": "app.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "dist": "build"
   },
   "build": {
-    "appId": "com.sammamane.spotify",
+    "appId": "com.sammamane.spotifium",
     "dmg": {
       "contents": [
         {
